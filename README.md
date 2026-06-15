@@ -34,32 +34,6 @@
 
 ---
 
-## تشغيل المشروع محلياً
-
-```bash
-# Option 1: Python
-python3 -m http.server 8080
-
-# Option 2: Node.js
-npx serve .
-
-# ثم افتح: http://localhost:8080
-```
-
-> **ملاحظة:** يجب تشغيله عبر HTTP Server (ليس file://) لكي يعمل Service Worker.
-
----
-
-## النشر على GitHub Pages
-
-1. ارفع الملفات إلى مستودع GitHub
-2. اذهب إلى **Settings → Pages**
-3. اختر **Source: Deploy from a branch**
-4. اختر **Branch: main** و **/ (root)**
-5. احفظ — سيُنشر التطبيق على: `https://username.github.io/repo-name/`
-
----
-
 ## بنية الملفات
 
 ```
